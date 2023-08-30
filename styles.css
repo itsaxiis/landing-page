@@ -1,0 +1,38 @@
+:root {
+    --dark-blue-bg: #1F2937;
+    --light-blue: #3882F6;
+    --gray: #c0c0c0;
+    --white: #F9FAF8;
+    --dark-blue-tx: #1F2937;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#header {
+    background-color: var(--dark-blue-bg);
+    color: var(--white);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 14%;
+}
+#header-logo {
+    font-size: 23px;
+}
+#header-list {
+    text-decoration: none;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    gap: 20px;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+    color: var(--gray);
+}
+a:visited {
+    color: var(--white);
+}
