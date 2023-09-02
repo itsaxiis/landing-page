@@ -1,7 +1,7 @@
 :root {
     --dark-blue-bg: #1F2937;
     --light-blue: #3882F6;
-    --gray: #c0c0c0;
+    --gray: #dddddd;
     --white: #F9FAF8;
     --dark-blue-tx: #1F2937;
 }
@@ -23,6 +23,7 @@ body {
 }
 #header-logo {
     font-size: 22px;
+    font-weight:700;
 }
 #header-list {
     text-decoration: none;
@@ -122,4 +123,20 @@ a:visited {
 }
 #information-section {
 padding: 10px 50px 108px 50px;
+}
+/*Quote Section*/
+#quote-section {
+    background-color: var(--gray);
+    padding: 70px 320px;
+    
+}
+#quote {
+    font-size: 33px;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+#author {
+    text-align: right;
+    font-size: 22px;
+    margin-top: 5px;
 }
