@@ -101,7 +101,6 @@ a:visited {
     color: var(--dark-blue-tx);
     margin-bottom: 50px;
 }
-
 .info-boxes {
     width:150px;
     height: 150px;
@@ -111,17 +110,20 @@ a:visited {
 .info-block {
     display: flex;
     flex-direction: column;
-    width: 150px
+    align-items: center;
+    flex: 1;
+    gap: 5px;
 }
 .information-flex {
     display: flex;
-    justify-content: center;
+    flex-wrap: wrap;
     gap: 55px;
     text-align: center;
     color: #6d747d;
 }
 .info-paragraph {
     margin-top: 6px;
+    width: 158px;
 }
 #information-section {
 padding: 10px 50px 108px 50px;
@@ -271,11 +273,10 @@ footer {
         flex-direction: column;
         align-items: center;
         gap: 10px;
-    }.information-flex {
+    }
+    .information-flex {
         display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        flex-wrap: wrap;
         gap: 55px;
         text-align: center;
         color: #6d747d;
